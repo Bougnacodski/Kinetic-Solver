@@ -32,8 +32,9 @@ The documentation is in [`docs/`](docs/index.md) and renders directly on GitHub:
 - [Contributing](docs/contributing.md): tests, adding a scheme, a case or an integrator
 - [References](docs/references.md)
 
-It can also be built as a website with MkDocs (`pip install -r docs/requirements.txt`,
-then `mkdocs serve`).
+It is also published as a website: https://bougnacodski.github.io/Kinetic-Solver/
+(rebuilt automatically on every push to `master`). To preview it locally:
+`pip install -r docs/requirements.txt`, then `mkdocs serve`.
 
 `Guidebook.pdf` documents the original 2013 version of the code.
 
